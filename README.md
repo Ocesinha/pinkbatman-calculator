@@ -4,6 +4,6 @@
 <br>
 <h2><b>FEATURES - v1</b></h2>
 <br>
-<p>- Basic operations (Addition, Subtraction, Division, Multiplication, Power)</p>
+<p>- Basic operations (Addition, Subtraction, Division, Multiplication...)</p>
 <p>- Dark/Light theme</p>
 <p>- Some easter-eggs from the developer</p>
