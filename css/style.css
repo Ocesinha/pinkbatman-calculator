@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease;
+    align-items: center;
+}
+.display{
+    width: 400px;
+    height: 50px;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 225, 230);
+    transition: 1s ease;
+}
+
+.calculadora{
+    width: 300px;
+    background-color: palevioletred;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 550px;
+    margin-inline: auto;
+    transition: 1s ease;
+}
+.btn{
+    width: 100px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(255, 192, 203);
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 20px;
+    border: 2px solid black;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    border-radius: 10px;
+}
+.btn-num{
+    background-image: url(../assets/batman2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3.5rem;
+}
+.btn-eq{
+    background-image: url(../assets/batman.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3rem;
+}
+.btn-clear{
+    background-image: url(../assets/joker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+.btn-sp{
+    background-image: url(../assets/legobatman.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+.btn-del{
+    background-image: url(../assets/joker2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 4rem;
+}
+
+
+.btn:hover{
+    background-color: rgb(201, 152, 160);
+}
+.batman-img{
+    width: 1.5rem;
+    height: auto;
+}
+.dark-theme{
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+.white-theme{
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: palevioletred;
+    cursor: pointer;
+}
